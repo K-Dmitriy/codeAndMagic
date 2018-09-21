@@ -10,7 +10,7 @@ var TEXT_WIDTH = 50;
 var BAR_HEIGHT = 20;
 var barWidth = CLOUD_WIDTH - GAP - TEXT_WIDTH - GAP;
 
-var renderTracery = function (ctx, x, y) {
+var renderCloudTracery = function (ctx, x, y) {
     var STEP_TRACERY_X = 20;
     var STEP_TRACERY_Y = 20;
     var HEIGHT_TRACERY_X = 20;
@@ -71,7 +71,7 @@ var renderCloud = function (ctx, x, y, color) {
     // ctx.strokeStyle = 'blue';
     ctx.beginPath();
     // ctx.moveTo(startTraceryX, startTraceryY);
-    renderTracery(ctx, x, y);
+    renderCloudTracery(ctx, x, y);
     ctx.closePath();
     // ctx.stroke();
     ctx.fill();

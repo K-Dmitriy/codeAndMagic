@@ -16,13 +16,8 @@ var renderTracery = function (ctx, x, y) {
     var HEIGHT_TRACERY_X = 20;
     var HEIGHT_TRACERY_Y = 20;
 
-<<<<<<< HEAD
     var GAP_TRACERY_X = 20;
     var GAP_TRACERY_Y = 20;
-=======
-    var GAP_TRACERY_X = 25;
-    var GAP_TRACERY_Y = 25;
->>>>>>> 2046603fa387ab0b5bbe459d04b8246d17fd0f9d
 
     var startTraceryX = x + GAP_TRACERY_X;
     var startTraceryY = y + GAP_TRACERY_Y;

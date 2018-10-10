@@ -16,8 +16,7 @@ var COAT_COLORS = ['rgb(101, 137, 164)', 'rgb(241, 43, 107)', 'rgb(146, 100, 161
 var EYES_COLORS = ['black', 'red', 'blue', 'yellow', 'green'];
 
 var generateRandomValue = function (array) {
-    var value = array[Math.floor(Math.random() * array.length)];
-    return value;
+    return array[Math.floor(Math.random() * array.length)];
 };
 
 var wizards = [
